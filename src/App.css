@@ -1,1 +1,23 @@
+body {
+  background-color: #eff7f7;
+}
 
+.App {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.App footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.App a {
+  color: #5fc7c7;
+  text-decoration-line: none;
+}
+
+.App a:hover {
+  text-decoration: underline;
+}
