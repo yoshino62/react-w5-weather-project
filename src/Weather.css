@@ -106,9 +106,8 @@
   align-items: flex-end;
 }
 
-.Weather img.current-weather-icon {
-  width: 140px;
-  height: 140px;
+.Weather canvas.current-weather-icon {
+  margin-bottom: 20px;
 }
 
 .Weather .curent-weather-condition {
