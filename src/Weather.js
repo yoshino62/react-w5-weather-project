@@ -17,8 +17,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       description: response.data.weather[0].description,
-      iconUrl:
-        "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png",
+      iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
   }
   function search() {
