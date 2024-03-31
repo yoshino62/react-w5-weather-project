@@ -98,6 +98,7 @@
 .Weather .current-weather-data {
   display: flex;
   justify-content: space-between;
+  margin: 0 30px;
 }
 
 .Weather .curent-weather-info {
