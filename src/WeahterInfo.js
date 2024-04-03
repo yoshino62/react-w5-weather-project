@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
         </span>
       </h1>
 
-      <div className="current-weather-data">
+      <div className="current-weather-data mb-5">
         <div className="current-weather-details">
           <WeatherTempetature celsius={props.data.temperature} />
 
