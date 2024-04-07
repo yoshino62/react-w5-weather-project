@@ -17,7 +17,7 @@ export default function App() {
           >
             Yoshino Andrews
           </a>{" "}
-          and open-sourced
+          is open-sourced
           <a
             href="https://github.com/yoshino62/react-w5-weather-project"
             target="_blank"
@@ -25,6 +25,15 @@ export default function App() {
           >
             {" "}
             on GitHub
+          </a>{" "}
+          and is hosted
+          <a
+            href="https://react-w5w6-weatherapplication-project.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            on Netlify
           </a>
         </footer>
       </div>
